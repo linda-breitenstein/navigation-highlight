@@ -1,11 +1,50 @@
 html{
-  box-sizing:content-box;
+  font: normal 100%/1.5 Georgia, serif;
 }
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-  .nav li {
-    display: inline-block;
+body {
+  margin: 0;
+}
+
+header {
+  backgroudcolour: #fff;
+  padding: 1em 0;
+}
+
+h1{
+  margin: 0
+  text-align: center;
+  padding: 1em 0;
+  font: Sigmar One;
+  font-size: 3rem;
+  font-color:  #cc1465;
+}
+
+.nav {
+  margin: 0;
+  padding:0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+
+.nav a {
+  colour: #fff;
+  display:inline-block;
+  padding: 0.5em 0.75em;
+  background-color: #ffe500;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background colour: #b2a212;
+}
+
+.nav .current {
+  background-color: #b2a212;
 }
