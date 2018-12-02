@@ -1,6 +1,8 @@
-html{
+html {
   font: normal 100%/1.5 Georgia, serif;
+  box-sizing: border-box;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -20,12 +22,12 @@ h1 {
   text-align: center;
   padding: 0;
   font-size: 3rem;
-  color:  #cc1465;
+  color: #b20953;
   font-family: "Sigmar One", sans-serif;
 }
 
 h2 {
-  color: #cc1465;
+  color: #b20953;
   font-family: "Sigmar One", sans-serif;
   font-size: 1.875rem;
 }
@@ -52,17 +54,19 @@ nav ul li a {
   font-size: 1.125rem;
 }
 
+nav ul li a:hover {
+  color: #2f2d13;
+  background-color: #cc1465;
+}
+
 .nav .current {
   background-color: #cc1465;
-  color: white;
+  color: #2f2d13;
 }
 
 main {
   padding: 0 .75em;
   background-color: white;
-}
-
-p {
 }
 
 b {
@@ -73,4 +77,5 @@ footer {
   background-color: #ffe500;
   text-align: center;
   font-size: .75rem;
+  padding: .75em 0;
 }
