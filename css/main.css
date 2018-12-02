@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  padding: .25em;
+  padding: 0 .25em .25em;
   background-color: #ffe500;
 }
 
@@ -31,7 +31,7 @@ h2 {
   font-family: "Sigmar One", sans-serif;
   font-size: 1.875rem;
   margin: 0;
-  padding: .75em 0 .25em;
+  padding-bottom: .25em;
 }
 
 img {
