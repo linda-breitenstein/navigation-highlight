@@ -72,6 +72,10 @@ nav ul li a:hover {
   color: #fff;
 }
 
+p {
+  margin: 0;
+}
+
 main {
   padding: .75em;
   background-color: #fff;
