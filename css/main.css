@@ -1,0 +1,75 @@
+html{
+  font: normal 100%/1.5 Georgia, serif;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+
+header {
+  padding: 1em 0;
+  background-color: #ffe500;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 3rem;
+  color:  #cc1465;
+  font-family: "Sigmar One", sans-serif;
+}
+
+h2 {
+  color: #cc1465;
+  font-family: "Sigmar One", sans-serif;
+  font-size: 1.875rem;
+}
+
+.nav {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  display:inline-block;
+  text-decoration: none;
+  background-color: #b2a212;
+  list-style-type: none;
+  padding: .2em .5em .3em;
+  border-radius: 4px;
+  font-size: 1.125rem;
+}
+
+.nav .current {
+  background-color: #cc1465;
+  color: white;
+}
+
+main {
+  padding: 0 .75em;
+}
+
+p {
+}
+
+b {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #ffe500;
+  text-align: center;
+  font-size: .75rem;
+}
